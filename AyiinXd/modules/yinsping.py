@@ -60,7 +60,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**㋱ Uᴘᴜᴛᴛ-Usᴇʀʙᴏᴛ ㋱**\n\n㋱ **ᴘɪɴɢᴇʀ :** `{} ms`\n㋱ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋱ **ᴏᴡɴᴇʀ :** `{}`\n㋱ **ɪᴅ :** `{}`"
+    message = "**㋱ Zᴜʟʟ Usᴇʀʙᴏᴛ ㋱**\n\n㋱ **ᴘɪɴɢᴇʀ :** `{} ms`\n㋱ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋱ **ᴏᴡɴᴇʀ :** `{}`\n㋱ **ɪᴅ :** `{}`"
     await ping.reply(message.format(duration, uptime, user.first_name, user.id)
                      )
 
@@ -89,7 +89,7 @@ async def uputt(ganteng):
 CMD_HELP.update(
     {
         "yinsping": f"**Plugin:** `Uputtping`\
-        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Uputt-Userbot Tod.`\
+        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Zᴜʟʟ Usᴇʀʙᴏᴛ Tod.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
     }
