@@ -109,8 +109,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-Uᴘᴜᴛᴛ :** `{py_ver}`\n"
-    help_string += f"**Uᴘᴜᴛᴛ Vᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-Zᴜʟʟ :** `{py_ver}`\n"
+    help_string += f"**Zᴜʟʟ Vᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -187,7 +187,7 @@ async def amireallyalive(alive):
     await alive.edit("👻")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [Uᴘᴜᴛᴛ Usᴇʀʙᴏᴛ](https://github.com/iamuput/Uputt-Userbot)**\n\n"
+        f"**Tʜᴇ [Zᴜʟʟ Usᴇʀʙᴏᴛ](https://github.com/botdev72/telethon)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"{emoji} **Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -197,8 +197,8 @@ async def amireallyalive(alive):
         f"{emoji} **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"{emoji} **PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"{emoji} **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"{emoji} **Pʏ-Uᴘᴜᴛᴛ Vᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"{emoji} **Uᴘᴜᴛᴛ Vᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"{emoji} **Pʏ-Zᴜʟʟ Vᴇʀsɪᴏɴ :** `{py_ver}`\n"
+        f"{emoji} **Zᴜʟʟ Vᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
