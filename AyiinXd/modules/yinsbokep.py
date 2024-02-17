@@ -17,7 +17,7 @@ from AyiinXd.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 
-@ayiin_cmd(pattern="bokp$")
+@ayiin_cmd(pattern="zull$")
 async def _(ayiin):
     if ayiin.chat_id in BLACKLIST_CHAT:
         return await eod(ayiin, get_string("ayiin_1"), time=45)
@@ -26,7 +26,7 @@ async def _(ayiin):
         asuyins = [
             asupan
             async for asupan in ayiin.client.iter_messages(
-                "@bokep_yins_xd", filter=InputMessagesFilterVideo
+                "@strbzul", filter=InputMessagesFilterVideo
             )
         ]
         awake = await ayiin.client.get_me()
@@ -49,7 +49,7 @@ CMD_HELP.update(
     {
         "yinsbokep": f"**Plugin :** `yinsbokep`\
         \n\n  »  **Perintah :** {cmd}bokp\
-        \n  »  **Kegunaan : **Untuk Mengirim bokp secara random.\
+        \n  »  **Kegunaan : **Untuk Mengirim zull secara random.\
     "
     }
 )
